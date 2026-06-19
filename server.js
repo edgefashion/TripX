@@ -71,7 +71,9 @@ app.get('/api', (req, res) => res.json({
     admin: ['GET /api/admin/stats', 'GET /api/admin/listings/pending'],
   }
 }));
-
+app.get("/", (req, res) => {
+  res.send("TripX Backend Running 🚀");
+});
 app.use((req, res) => res.status(404).json({ success: false, message: `Route not found: ${req.method} ${req.url}` }));
 
 app.use((err, req, res, next) => {

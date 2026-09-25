@@ -1,7 +1,7 @@
 {
-  "name": "tripgenius-backend-v2",
-  "version": "2.0.0",
-  "description": "TripGenius AI - Expanded Backend API Server",
+  "name": "tripgenius-backend",
+  "version": "1.0.0",
+  "description": "TripGenius AI - Backend API Server",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
